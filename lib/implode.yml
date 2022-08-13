@@ -1,5 +1,8 @@
-files:
+tasks:
+  - dir: src
   - src: .gitignore
   - src: LICENSE
   - src: package.json
   - src: tsconfig.json
+  - src: README.md
+    once: true
